@@ -162,9 +162,9 @@ pub fn lex(input: &str) -> (Vec<Token>, Settings) {
     let mut tokens = Vec::new();
     let mut delimiter_cnt = 0;
 
-    let heading_large_regex = Regex::new(r"^### (.*)").unwrap();
+    let heading_large_regex = Regex::new(r"^# (.*)").unwrap();
     let heading_medium_regex = Regex::new(r"^## (.*)").unwrap();
-    let heading_small_regex = Regex::new(r"^# (.*)").unwrap();
+    let heading_small_regex = Regex::new(r"^### (.*)").unwrap();
 
     let comment_regex = Regex::new(r"^//(.*)").unwrap();
     let newslide_regex = Regex::new(r"^---(?: (.*))?").unwrap();
