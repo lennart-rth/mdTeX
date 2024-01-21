@@ -1,4 +1,4 @@
-# mdTex
+# mdTeX
 A leightweight converter for **Markdown** (my own flavour!) to **PDF-slides** (Latex Beamer) written in Rust.
 
 Creates `.pdf` and and `.tex` file for slideshows.
