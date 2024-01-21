@@ -1,0 +1,116 @@
+\documentclass{beamer}
+
+\usepackage{cancel}
+
+\usetheme{metropolis}
+\title{This is the title}
+\author{Your name}
+\date{\today}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Slide with a title}
+
+% {This is a comment}
+
+
+\begin{block}{Box title}
+This text is inside a box
+\end{block}
+
+\begin{block}{}
+This box has no Title
+\end{block}
+
+\begin{block}{}
+This is also a box
+\end{block}
+
+
+
+\end{frame}
+\begin{frame}{}
+
+
+\Huge
+This is a large Heading
+\normalsize
+
+Unfortunately headings can´t have text styling in them.
+
+\begin{itemize}
+\item This is a \textbf{bold} word.\begin{itemize}
+\item lists can be unordered or ordered\end{itemize}\item This is a \textit{italic} word.
+\end{itemize}
+
+\begin{enumerate}
+\item This word is \underline{underlined}
+\begin{enumerate}
+\item this is a ordered and nested list
+\end{enumerate}
+\item This word is \cancel{crossed}
+\end{enumerate}
+
+\end{frame}
+\begin{frame}{}
+
+
+\Huge
+There are large Headings
+\normalsize
+
+A paragraph is ended by a empty line.
+
+This is the next paragraph.
+
+\Large
+Medium headings
+\normalsize
+
+This paragraph is
+escaped with a \textbf{double backslash}.
+
+\footnotesize
+Small headings
+\normalsize
+
+
+\end{frame}
+\begin{frame}{Vertical Columns}
+
+\begin{itemize}
+\item Column sections are started and ended with a ::\item a new Column is started with a : following a percentage of the columns width. (eg. ":40%")
+\end{itemize}
+
+\begin{columns}
+\column{0.4\textwidth}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+\column{0.6\textwidth}
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+\end{columns}
+
+\end{frame}
+\begin{frame}{Images}
+
+Images have 3 parameters:
+\begin{enumerate}
+\item x coordinate
+\item y coordinate
+\item width
+\end{enumerate}
+
+x,y,w are necessary and are delimited by a ",". If no positioning is needed they can be left as 0
+The Box for the Caption can also be empty or leaved out.
+
+\begin{figure}
+\hspace*{0\textwidth}
+\vspace*{0\textwidth}
+\includegraphics[width=0.25\linewidth]{./test.jpg}
+\caption{This is the Image caption}
+\end{figure}
+
+\end{frame}
+\end{document}
