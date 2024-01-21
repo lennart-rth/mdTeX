@@ -1,5 +1,5 @@
 %%
-theme: metropolis
+theme: Darmstadt
 title: This is the title
 author: Your name
 date: \today
@@ -17,7 +17,7 @@ indentation: 4
 
 --- 
 
-### This is a large Heading
+# This is a large Heading
 Unfortunately headings can´t have text styling in them.
 
 * This is a **bold** word. 
@@ -30,14 +30,14 @@ Unfortunately headings can´t have text styling in them.
 
 ---
 
-### There are large Headings
+# There are large Headings
 A paragraph is ended by a empty line.
 
 This is the next paragraph.
 ## Medium headings
 This paragraph is 
 escaped with a **double backslash**.
-# Small headings
+### Small headings
 
 --- Vertical Columns
 
