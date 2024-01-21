@@ -13,6 +13,9 @@ Creates `.pdf` and and `.tex` file for slideshows.
 
 # Documentation
 An exmaple Markdown file can be found [here](./examples/demo.md).
+
+You can convert it by `./mdTex demo.md`. This will generate a `demo.tex` and `demo.pdf` file at the same location.
+
 ## Metadata Setup
 * At the beginning of the file
 * starts and ends with `%%`
