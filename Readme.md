@@ -1,18 +1,20 @@
 # mdTeX
-A leightweight converter for **Markdown** (my own flavour!) to **PDF-slides** (Latex Beamer) written in Rust.
+A lightweight converter for **Markdown** (my own flavour!) to **PDF-slides** (Latex Beamer) written in Rust.
 
-Creates `.pdf` and and `.tex` file for slideshows.
+Creates `.pdf` and `.tex` file for slideshows.
 
 >There are many Markdown to PDF-slides converter. 
 >But as of my knowledge none of them can position images freely on slides.
->To archieve this, I wrote my own Markdown-flavour that support a few Latex-Beamer functionalities and is easy to read, fast to write in Markdown style.
+>To achieve this, I wrote my own Markdown-flavour that supports a few Latex-Beamer functionalities and is easy to read and fast to write in Markdown style.
+
+Needs pdflatex installed.
 
 ## More features coming...
-* "floating" positionable Text-boxes.
+* "floating" positionable text-boxes.
 * Code syntax support
 
 # Documentation
-An exmaple Markdown file can be found [here](./examples/demo.md).
+An example Markdown file can be found [here](./examples/demo.md).
 
 You can convert it by `./mdTex demo.md`. This will generate a `demo.tex` and `demo.pdf` file at the same location.
 
